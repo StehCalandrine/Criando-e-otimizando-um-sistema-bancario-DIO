@@ -1,7 +1,7 @@
 
-#### Criando um Sistema Bancário com Python 
+## Criando um Sistema Bancário com Python 
 
-Proposta
+### Proposta
 Fomos contratados por um grande banco para desenvolver seu novo sistema. Esse banco deseja modernizar suas operações e, para isso, escolheu a linguagem Python.
 
 Para a primeira versão do sistema, devemos implementar apenas 3 operações: depósito, saque e extrato.
