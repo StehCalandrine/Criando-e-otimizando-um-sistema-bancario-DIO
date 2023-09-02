@@ -1,22 +1,15 @@
+# Desafios de projeto da formação Python Developer da DIO
 
-## Criando um Sistema Bancário com Python 
+### Criando um sistema bancário com Python
 
-### Proposta
-Fomos contratados por um grande banco para desenvolver seu novo sistema. Esse banco deseja modernizar suas operações e, para isso, escolheu a linguagem Python.
+Desafio básico onde foi proposto criar um sistema bancário simples em python. Esta será a v1 onde deve conter as operações de Saque, Depósito e Exibir extrato. As regras são: Limitado a 3 saques, limitado a R$500,00 de saques no total, todos os depósitos devem ser armazenados e exibidos no extrato, extrato deve exibir os valores depositadosm, sacados e o saldo atual em conta.
 
-Para a primeira versão do sistema, devemos implementar apenas 3 operações: depósito, saque e extrato.
 
-Operação de depósito
-Deve ser possível depositar valores positivos para uma conta bancária. A v1 do projeto trabalha com apenas 1 usuário, então não é necessário se preocupar com a identificação do número da agência e nem da conta bancária.
+### Otimizando o sistema bancário com funções
 
-Todos os depósitos devem ser armazenados numa variável e exibidos na operação de extrato.
+Neste desafio foi proposto otimizar o sistema criado anteriormete utilizando funções e outros conceitos como listas, dicionários entre outros aspectos, foi adicionado também a funcionalidade de exigir senha ao realizar login, criar usuários e criar contas podendo se criar mais de uma conta por usuário. Esta é a v2 do código.
 
-Operação de saque
-O sistema deve permitir realizar 3 saques diários com limite máximo de R$500,00/saque. Caso o usuário não tenha saldo em conta, o sistema deve exibir uma mensagem informando que não será possível sacar dinheiro por falta de saldo.
 
-Todos os saques devem ser armazenados numa variável e exibidos na operação de extrato.
+### Modelando o sistema bancário em POO
 
-Operação de extrato
-Deve listar todos os depósitos e saques realizados na conta. No fim da lista, deve ser exibido o saldo atual da conta.
-
-Os valores devem ser exibidos utilizando o formato R$ xxx.xx.
+Terceira etapa deste desafio onde o sistema foi remodelado utilizando orientação a objetos. Realizando as mesmas tarefas da versão anterior porém com mais praticidade na criação por utilizar os conceitos de orientação a objetos como Herança, Polimorfismo, encapsulamento etc. Esta é a v3 do código.
